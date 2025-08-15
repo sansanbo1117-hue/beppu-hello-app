@@ -40,6 +40,14 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    // ★ Java/Kotlin のターゲットを 17 に統一
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = "17"
+    }
 }
 
 dependencies {
