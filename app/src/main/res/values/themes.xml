@@ -1,0 +1,4 @@
+<resources>
+    <!-- マテリアル3の昼夜自動切替テーマ（アクションバーなし） -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar"/>
+</resources>
